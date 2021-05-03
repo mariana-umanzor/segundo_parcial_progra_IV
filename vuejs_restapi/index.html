@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Axios consuming API REST Demo</title>
+    </head>
+    <body>
+        <div>
+            <div>
+                <button onclick="ObtenerArticulos()">Get All</button>
+                <button onclick="ObtenerItemPorId()">Get Filtered</button>
+                <button onclick="getByIdRequest()">Get by Id</button>
+            </div>
+            <div>
+                <button onclick="CrearItem()">Create</button>
+            </div>
+            <div>
+                <button onclick="patchRequest()">Update</button>
+            </div>
+            <div>
+                <button onclick="ActualizarItem()">Replace</button>
+            </div>
+            <div>
+                <button onclick="BorrarItem()">Delete</button>
+            </div>
+        </div>
+        
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
